@@ -1,0 +1,23 @@
+id: CF-1310
+model: RS200          # Westfalia “RS” family, refinement duty
+manufacturer: GEA Westfalia Separator
+type: refinement
+description: Refinement centrifuge – neutralising/ washing
+bowl_speed_rpm: 4050    # RSE200 spec used as proxy  :contentReference[oaicite:3]{index=3}
+throughput_ton_d: 300   # typical for RS/RSE-200 class  :contentReference[oaicite:4]{index=4}
+
+tags:
+  BowlSpeed_PV:      "Bowl speed (rpm)"
+  FeedFlow_PV:       "Feed flow (m³/h)"
+  OilTemp_In_PV:     "Inlet oil temperature (°C)"
+  OilTemp_Out_PV:    "Outlet oil temperature (°C)"
+  BackPressure_PV:   "Paring-disc back-pressure (MPa)"
+  OperatingWater_PV: "Operating-water pressure (MPa)"
+  MotorCurrent_PV:   "Motor current (A)"
+  Torque_PV:         "Bowl torque (N·m)"
+  VibRMS_PV:         "Overall vibration (mm/s RMS)"
+  PT100_U:           "Upper bearing temperature (°C)"
+  PT100_L:           "Lower bearing temperature (°C)"
+  DiffPress_PV:      "Phase differential pressure (kPa)"
+  SludgeDischarge_Ctr: "Sludge eject counter"
+  CIP_Counter:       "CIP cycle counter"

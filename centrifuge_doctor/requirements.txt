@@ -1,0 +1,11 @@
+streamlit>=1.32
+groq>=0.5
+markdown>=3.5
+python-dotenv>=1.0
+sentence-transformers>=2.7
+faiss-cpu>=1.8
+pyyaml>=6.0
+pdfplumber==0.11.7          # latest features, June 2025
+pdfminer.six==20250324      # newest wheel currently on PyPI
+pillow>=10.0                # pdfplumber sub-dep
+pypdfium2>=4.30.0           # optional but speeds up raster ops

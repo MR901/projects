@@ -1,0 +1,23 @@
+id: CF-1320
+model: RSB200
+manufacturer: GEA Westfalia Separator
+type: refinement
+description: Refinement centrifuge – self-cleaning disc stack
+bowl_speed_rpm: 4050     # same bowl family as RSE200  :contentReference[oaicite:6]{index=6}
+throughput_ton_d: 300
+
+tags:
+  BowlSpeed_PV:      "Bowl speed (rpm)"
+  FeedFlow_PV:       "Feed flow (m³/h)"
+  OilTemp_In_PV:     "Inlet oil temperature (°C)"
+  OilTemp_Out_PV:    "Outlet oil temperature (°C)"
+  BackPressure_PV:   "Paring-disc back-pressure (MPa)"
+  OperatingWater_PV: "Operating-water pressure (MPa)"
+  MotorCurrent_PV:   "Motor current (A)"
+  Torque_PV:         "Bowl torque (N·m)"
+  VibRMS_PV:         "Overall vibration (mm/s RMS)"
+  PT100_U:           "Upper bearing temperature (°C)"
+  PT100_L:           "Lower bearing temperature (°C)"
+  DiffPress_PV:      "Phase differential pressure (kPa)"
+  SludgeDischarge_Ctr: "Sludge eject counter"
+  CIP_Counter:       "CIP cycle counter"

@@ -1,0 +1,17 @@
+id: CF-105
+model: PX100
+manufacturer: Alfa Laval
+type: degumming          # always PX-series here
+description: Degumming centrifuge in soybean-oil line
+bowl_speed_rpm: 4300      # rated      :contentReference[oaicite:0]{index=0}
+throughput_m3_h: 45       # max, fatty-oil service  :contentReference[oaicite:1]{index=1}
+
+tags:
+  BowlSpeed_PV: "Bowl speed (rpm)"
+  FeedFlow_PV:  "Feed flow (m³/h)"
+  OilTemp_PV:   "Feed temperature (°C)"
+  MotorCurrent_PV: "Motor current (A)"
+  VibRMS_PV:    "Overall vibration (mm/s RMS)"
+  PT100_U:      "Upper bearing temp (°C)"
+  PT100_L:      "Lower bearing temp (°C)"
+  DischargeVlv: "Sludge valve status"
