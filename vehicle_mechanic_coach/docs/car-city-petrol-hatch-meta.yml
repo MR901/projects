@@ -1,0 +1,41 @@
+id: CAR-001
+vehicle_type: car
+use_case: city_commute
+make: Generic
+model: Petrol Hatchback
+year_range: 2015-2025
+
+engine:
+  type: petrol
+  displacement_cc: 1200
+  induction: NA
+  cylinders: 3-4
+  transmission: manual
+
+description: >
+  Typical 1.2 L petrol hatchback used for mixed city traffic with occasional
+  highway runs. Focus on drivability, fuel economy and basic maintenance.
+
+safety_limits:
+  coolant_temp_c:
+    normal_max: 100
+    warning: 105
+    critical: 115
+  oil_pressure_bar:
+    idle_min: 1.0
+    cruise_min: 2.0
+  tyre_pressure_psi:
+    front: 32
+    rear: 32
+
+tags:
+  EngineRPM: "Engine speed (rpm)"
+  CoolantTemp: "Coolant temperature (°C)"
+  OilPressure: "Engine oil pressure (bar)"
+  VehicleSpeed: "Speed over ground (km/h)"
+  Gear: "Selected gear (if known)"
+  Odometer: "Odometer reading (km)"
+  CheckEngine: "MIL / check engine indicator"
+  FuelConsumption: "Average fuel consumption (km/l or l/100 km)"
+
+

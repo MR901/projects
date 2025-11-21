@@ -1,0 +1,36 @@
+id: BIKE-150
+vehicle_type: motorcycle
+use_case: city_commute
+make: Generic
+model: 150cc Commuter
+year_range: 2010-2025
+
+engine:
+  type: petrol
+  displacement_cc: 150
+  induction: NA
+  cylinders: 1
+  transmission: manual
+
+description: >
+  Typical 150 cc commuter motorcycle used for daily city riding with occasional
+  highway stretches. Emphasis on reliability, fuel economy and safe handling.
+
+safety_limits:
+  coolant_temp_c:
+    normal_max: 105
+    warning: 110
+    critical: 120
+  tyre_pressure_psi:
+    front: 28
+    rear: 32
+
+tags:
+  EngineRPM: "Engine speed (rpm)"
+  CoolantTemp: "Coolant / engine temperature (°C, if available)"
+  VehicleSpeed: "Speed over ground (km/h)"
+  Gear: "Selected gear"
+  Odometer: "Odometer reading (km)"
+  FuelLevel: "Fuel level"
+
+
